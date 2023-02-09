@@ -5,6 +5,7 @@
 }
 header {
   background-color: blue;
+  width: 100%;
   height: 300px;
 }
 
@@ -36,21 +37,23 @@ header a {
 /* navigation end */
 .photo {
   max-width: 950px;
-  width: 95%;
-  height: 450px;
+  width: 90%;
+  max-height: 450px;
+  height: auto;
   padding-left: 50px;
 }
 .flex-container {
   display: flex;
   flex-direction: column;
   /* position: absolute; */
-   margin-left: 10%;
-   margin-top: -150px;
+  margin-left: 10%;
+  margin-top: -150px;
   padding-bottom: 100px;
 }
 h2 {
   padding-top: 20px;
   padding-bottom: 50px;
+  width: auto;
 }
 /* paragraph css */
 .photos {
@@ -58,12 +61,12 @@ h2 {
 }
 .paragraph {
   max-width: 1100px;
-  width: 95%;
-  padding-left: 50px;
+  width: 90%;
+  padding: 5px;
 }
 h4 {
   max-width: 300px;
-  width: auto;
+  width: 90%;
   background-color: blue;
   padding: 5px 50px;
   border-radius: 20px;
@@ -73,13 +76,14 @@ h4 {
 }
 /* footer css */
 .map {
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   height: 250p;
 }
 .paragrap {
   color: white;
   max-width: 600px;
-  width: 80%;
+  width: 90%;
   padding-top: 20px;
   padding-bottom: 30px;
 
@@ -87,47 +91,48 @@ h4 {
 }
 .conect,
 a {
-   color: white; 
-} 
-  .tele {
-    margin-top: 50px;
-    background-color: white;
-    width: 35px;
-    height: 35px;
-    padding: 8px;
-    border-radius: 5px;
-  }
-  .mail {
-    background-color: white;
-    width: 35px;
-    height: 35px;
-    padding: 9px;
-    border-radius: 5px;
-    /* margin-left: 80px; */
-  }
-  .number {
-    text-decoration: none;
-    /* padding-left: 5px; */
-  }
-  .gmail {
-    text-decoration: none;
-     
-  }
-  .contact-container {
-    display: flex;
-    flex-wrap: wrap;
-
-    padding: 80px 8%;
-  }
-  .form input {
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.918);
-    background: transparent;
-    outline: none;
-  }
+  color: white;
+}
+.tele {
+  margin-top: 50px;
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+  border-radius: 5px;
+}
+.mail {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  padding: 9px;
+  border-radius: 5px;
+  /* margin-left: 80px; */
+}
+.number {
+  text-decoration: none;
+  /* padding-left: 5px; */
+}
+.gmail {
+  text-decoration: none;
+}
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 80px 8%;
+}
+.form input {
+  border: none;
+  border-bottom: 1px solid rgba(14, 1, 133, 0.918);
+  background: transparent;
+  outline: none;
 }
 input {
-  /* outline: none; */
+  outline: none;
+  font-size: 15px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
   width: 350px;
   height: 50px;
 }
@@ -138,14 +143,14 @@ button {
   margin-left: 300px;
   margin-top: 20px;
 }
-.text {
+/* .text {
   margin-top: 50px;
-  max-width: 350px;
+
   width: auto;
 }
 .mesig {
-  color: white;
-}
+  color: white;} */
+
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -158,4 +163,19 @@ button {
 }
 footer {
   background-color: blue;
+}
+::placeholder {
+  color: white;
+}
+textarea {
+  resize: none;
+  background: blue;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid rgba(14, 1, 133, 0.918);
+}
+.last-logo {
+  /* width: 80px;
+  height: 30px; */
+  padding-left: 30px;
 }
