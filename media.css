@@ -1,0 +1,34 @@
+@media (max-width: 1024px) {
+  .contact-container {
+    flex-direction: column-reverse;
+  }
+  .navigation {
+    justify-content: center;
+    align-items: center;
+  }
+  .paragrap {
+    display: none;
+  }
+  nav,
+  .elements {
+    display: none;
+  }
+  .send button {
+    width: 90%;
+    margin-left: 5%;
+    font-size: larger;
+  }
+  .mobil-contact {
+    color: white;
+    padding: 30px 30px;
+  }
+  h1 {
+    display: block;
+  }
+  .map {
+    margin-top: 50px;
+  }
+  .paragraph h4 {
+    margin-left: 7%;
+  }
+}

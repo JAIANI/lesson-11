@@ -53,7 +53,6 @@ header a {
 h2 {
   padding-top: 20px;
   padding-bottom: 50px;
-  width: 95%;
 }
 /* paragraph css */
 .photos {
@@ -75,7 +74,7 @@ h4 {
   border-radius: 20px;
   margin-top: 20px;
   /* place-items: center; */
-  /* margin-left: 30%; */
+  margin-left: 30%;
   color: white;
 }
 /* footer css */
@@ -103,14 +102,14 @@ a {
   width: 35px;
   height: 35px;
   padding: 8px;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 .mail {
   background-color: white;
   width: 35px;
   height: 35px;
   padding: 9px;
-  border-radius: 5px;
+  border-radius: 50px;
   /* margin-left: 80px; */
 }
 .number {
@@ -145,7 +144,7 @@ button {
   padding: 10px;
   border-radius: 15px;
   border: none;
-  margin-left: 50%;
+  margin-left: 40%;
   margin-top: 20px;
 }
 ::placeholder {
@@ -158,19 +157,12 @@ textarea {
   border: none;
   border-bottom: 1px solid rgba(14, 1, 133, 0.918);
 }
-/* .text {
-  margin-top: 50px;
-
-  width: auto;
-}
-.mesig {
-  color: white;} */
 
 .footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 10% 8% auto;
+  margin: 20px 8% auto;
 
   color: white;
 }
@@ -185,5 +177,8 @@ footer {
   /* width: 80px;
   height: 30px; */
   padding-left: 30px;
+}
+.mobile-contact {
+  display: none;
 }
 /* computer version end */
