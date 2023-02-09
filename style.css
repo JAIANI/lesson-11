@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: blue;
+  height: 300px;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 27px 8%;
+}
+.elements,
+li {
+  display: inline-flex;
+  padding: 3px 10px;
+}
+a {
+  text-decoration: none;
+}
+header a {
+  color: white;
+}
+.contact {
+  background-color: white;
+  color: black;
+  padding: 6px 10px;
+  border-radius: 15px;
+  height: 36px;
+  margin-top: -6px;
+}
+/* navigation end */
+.photo {
+  max-width: 950px;
+  width: 95%;
+  height: 450px;
+  padding-left: 50px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+   margin-left: 10%;
+   margin-top: -150px;
+  padding-bottom: 100px;
+}
+h2 {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+/* paragraph css */
+.photos {
+  padding-bottom: 50px;
+}
+.paragraph {
+  max-width: 1100px;
+  width: 95%;
+  padding-left: 50px;
+}
+h4 {
+  max-width: 300px;
+  width: auto;
+  background-color: blue;
+  padding: 5px 50px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 30%;
+  color: white;
+}
+/* footer css */
+.map {
+  width: 300px;
+  height: 250p;
+}
+.paragrap {
+  color: white;
+  max-width: 600px;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.conect,
+a {
+   color: white; 
+} 
+  .tele {
+    margin-top: 50px;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  .mail {
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+    border-radius: 5px;
+    /* margin-left: 80px; */
+  }
+  .number {
+    text-decoration: none;
+    /* padding-left: 5px; */
+  }
+  .gmail {
+    text-decoration: none;
+     
+  }
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 80px 8%;
+  }
+  .form input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.918);
+    background: transparent;
+    outline: none;
+  }
+}
+input {
+  /* outline: none; */
+  width: 350px;
+  height: 50px;
+}
+button {
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  margin-left: 300px;
+  margin-top: 20px;
+}
+.text {
+  margin-top: 50px;
+  max-width: 350px;
+  width: auto;
+}
+.mesig {
+  color: white;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 100px 8% auto;
+  color: white;
+}
+.logo {
+  padding-left: 20px;
+}
+footer {
+  background-color: blue;
+}
