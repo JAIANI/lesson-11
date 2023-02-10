@@ -2,9 +2,8 @@
   .contact-container {
     flex-direction: column-reverse;
   }
-  .navigation {
-    justify-content: center;
-    align-items: center;
+  .logo {
+    margin-left: 25%;
   }
   .paragrap {
     display: none;
@@ -13,19 +12,26 @@
   .elements {
     display: none;
   }
+  .photo {
+    margin-top: 50px;
+  }
+  h2 {
+    padding-left: 10px;
+  }
   .send button {
     width: 90%;
     margin-left: 5%;
     font-size: larger;
   }
-  .mobil-contact {
+
+  /* .mobil-contact {
     display: block;
     color: white;
     padding: 30px 30px;
   }
   h1 {
     display: block;
-  }
+  } */
   .map {
     margin-top: 50px;
   }
@@ -40,6 +46,13 @@
   .conect {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .mail {
+    margin-top: 20px;
+  }
+  .photos {
     justify-content: center;
     text-align: center;
   }
