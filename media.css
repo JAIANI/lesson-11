@@ -19,6 +19,7 @@
     font-size: larger;
   }
   .mobil-contact {
+    display: block;
     color: white;
     padding: 30px 30px;
   }
@@ -30,5 +31,16 @@
   }
   .paragraph h4 {
     margin-left: 7%;
+  }
+  .footer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .conect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 }
