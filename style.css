@@ -181,4 +181,8 @@ footer {
   padding-bottom: 30px;
   place-items: center;
 }
+.click img {
+  opacity: 0;
+  /* display: none; */
+}
 /* computer version end */
